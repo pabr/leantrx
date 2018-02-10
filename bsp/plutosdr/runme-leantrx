@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# This script must be copied to the root of the USB Mass Storage device.
+# It will be executed by /lib/mdev/automounter.sh .
+
+exec  > /tmp/runme.log  2>&1
+
+cd /media/$MDEV/leantrx/bsp/plutosdr  &&  exec ./start.sh

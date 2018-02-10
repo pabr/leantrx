@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+
+<service-group>
+
+  <name replace-wildcards="yes">leantrx on %h</name>
+
+  <service>
+    <type>_http._tcp</type>
+    <port>80</port>
+    <txt-record>path=/leantrx/index.html</txt-record>
+  </service>
+
+</service-group>
