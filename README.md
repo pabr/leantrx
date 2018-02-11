@@ -6,9 +6,10 @@ See http://www.pabr.org/radio/leantrx/
 
 # Development
 
-See https://www.github.com/pabr/leansdr
+https://www.github.com/pabr/leantrx (web interface)
+https://www.github.com/pabr/leansdr (SDR functions)
 
-* LeanTRX license
+# LeanTRX license
 
 Copyright (c) 2018 <pabr@pabr.org>
 
